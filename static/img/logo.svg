@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="910.66669"
+   height="204"
+   viewBox="0 0 910.66669 204"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 0,0.05454507 H 682.9091 V 153.00005 H 0 Z"
+         id="path16" />
+    </clipPath>
+  </defs>
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,204)">
+    <g
+       id="g10" />
+    <g
+       id="g12">
+      <g
+         id="g14"
+         clip-path="url(#clipPath18)">
+        <path
+           d="M 0,153 H 682.9091 V 0.05454507 H 0 Z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path20" />
+      </g>
+    </g>
+    <g
+       id="g22">
+      <g
+         id="g24"
+         transform="matrix(0.2181818,0,0,0.2181818,48.12833,-92.67272)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,0,701)"
+           style="font-variant:normal;font-weight:bold;font-size:330px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#aab2cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text28"><tspan
+             x="0 240.636"
+             y="0"
+             id="tspan26">Re</tspan></text>
+      </g>
+      <g
+         id="g30"
+         transform="matrix(0.2181818,0,0,0.2181818,141.1283,-92.67272)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,0,701)"
+           style="font-variant:normal;font-weight:bold;font-size:330px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#384785;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text34"><tspan
+             x="0 240.636 499.422 740.05798 962.21399 1056 1333.266 1518.792 1722.798 1816.584 2002.11 2187.636"
+             y="0"
+             id="tspan32">CODE Medical</tspan></text>
+      </g>
+      <path
+         d="m 1.363615,86.6182 c 0,5.84417 4.835325,10.58181 10.800005,10.58181 5.96467,0 10.8,-4.73764 10.8,-10.58181 0,-5.84418 -4.83533,-10.58182 -10.8,-10.58182 -5.96468,0 -10.800005,4.73764 -10.800005,10.58182 z"
+         style="fill:#6d7ea2;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path36" />
+      <g
+         id="g38"
+         transform="matrix(7.874016e-5,0,0,-7.874016e-5,1.363615,97.20001)">
+        <path
+           d="M 0,134389 C 0,60168 61408.62,0 137160,0 c 75751.4,0 137160,60168 137160,134389 0,74221 -61408.6,134389 -137160,134389 C 61408.62,268778 0,208610 0,134389 Z"
+           style="fill:none;stroke:#6d7ea2;stroke-width:19050;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+           id="path40" />
+      </g>
+      <path
+         d="m 1.363615,115.4182 c 0,5.8442 4.835325,10.5818 10.800005,10.5818 5.96467,0 10.8,-4.7376 10.8,-10.5818 0,-5.8442 -4.83533,-10.5818 -10.8,-10.5818 -5.96468,0 -10.800005,4.7376 -10.800005,10.5818 z"
+         style="fill:#dce0f1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path42" />
+      <g
+         id="g44"
+         transform="matrix(7.874016e-5,0,0,-7.874016e-5,1.363615,126)">
+        <path
+           d="M 0,134389 C 0,60168 61408.62,0 137160,0 c 75751.4,0 137160,60168 137160,134389 0,74221 -61408.6,134389 -137160,134389 C 61408.62,268778 0,208610 0,134389 Z"
+           style="fill:none;stroke:#dce0f1;stroke-width:19050;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+           id="path46" />
+      </g>
+      <path
+         d="m 1.363615,57.8182 c 0,5.84417 4.835325,10.58181 10.800005,10.58181 5.96467,0 10.8,-4.73764 10.8,-10.58181 0,-5.84418 -4.83533,-10.58182 -10.8,-10.58182 -5.96468,0 -10.800005,4.73764 -10.800005,10.58182 z"
+         style="fill:#384785;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path48" />
+      <g
+         id="g50"
+         transform="matrix(7.874016e-5,0,0,-7.874016e-5,1.363615,68.40001)">
+        <path
+           d="M 0,134389 C 0,60168 61408.62,0 137160,0 c 75751.4,0 137160,60168 137160,134389 0,74221 -61408.6,134389 -137160,134389 C 61408.62,268778 0,208610 0,134389 Z"
+           style="fill:none;stroke:#384785;stroke-width:19050;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+           id="path52" />
+      </g>
+    </g>
+  </g>
+</svg>

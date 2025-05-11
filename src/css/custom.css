@@ -1,0 +1,127 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* ReCODE Medical Brand Colors - Base CSS */
+:root {
+  /* Primary colors using ReCODE brand guide */
+  --ifm-color-primary: #384785; /* CHAMBRAY - Primary brand color */
+  --ifm-color-primary-dark: #32417a; /* Darker shade of CHAMBRAY */
+  --ifm-color-primary-darker: #2f3c74; /* Even darker CHAMBRAY */
+  --ifm-color-primary-darkest: #263168; /* Darkest CHAMBRAY */
+  --ifm-color-primary-light: #4e5c90; /* Lighter CHAMBRAY */
+  --ifm-color-primary-lighter: #5461ab; /* Pinkish toward LYNCH */
+  --ifm-color-primary-lightest: #637ea2; /* LYNCH - Secondary brand color */
+  
+  /* Secondary and accent colors */
+  --ifm-color-secondary: #637ea2; /* LYNCH */
+  --ifm-color-accent: #47b2e4; /* THALASSOPHILE - Accent color */
+  --ifm-color-background: #aab2cc; /* LOVELY LILAC for subtle backgrounds */
+  
+  /* Code and syntax highlighting */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(170, 178, 204, 0.1); /* LOVELY LILAC with transparency */
+  
+  /* Custom brand colors for additional use */
+  --recode-chambray: #384785;
+  --recode-lynch: #637ea2;
+  --recode-lovely-lilac: #aab2cc;
+  --recode-dark-knight: #111935;
+  --recode-thalassophile: #47b2e4;
+}
+
+/* Dark mode palette using ReCODE Medical colors */
+[data-theme='dark'] {
+  /* Use accent color as primary in dark mode for better visibility */
+  --ifm-color-primary: #47b2e4; /* THALASSOPHILE as primary in dark mode */
+  --ifm-color-primary-dark: #3ba2d6; /* Darker THALASSOPHILE */
+  --ifm-color-primary-darker: #3898cb; /* Even darker */
+  --ifm-color-primary-darkest: #2d80b1; /* Darkest shade */
+  --ifm-color-primary-light: #5abce8; /* Lighter THALASSOPHILE */
+  --ifm-color-primary-lighter: #66c2ea; /* Even lighter */
+  --ifm-color-primary-lightest: #7fc9ed; /* Lightest shade */
+  
+  /* Dark mode specific colors */
+  --ifm-background-color: #111935; /* DARK KNIGHT as background */
+  --ifm-navbar-background-color: #111935;
+  --ifm-sidebar-background-color: #192244; /* Slightly lighter than DARK KNIGHT */
+  
+  /* Code highlighting in dark mode */
+  --docusaurus-highlighted-code-line-bg: rgba(71, 178, 228, 0.3); /* THALASSOPHILE with transparency */
+}
+
+/* Custom styling for brand consistency */
+.navbar {
+  border-bottom: 1px solid var(--recode-lovely-lilac);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: var(--ifm-color-primary);
+}
+
+/* Footer branding */
+.footer {
+  background-color: var(--recode-dark-knight);
+  color: var(--recode-lovely-lilac);
+}
+
+/* Custom button styling */
+.button--primary {
+  background-color: var(--recode-chambray);
+  border-color: var(--recode-chambray);
+}
+
+.button--primary:hover {
+  background-color: var(--recode-lynch);
+  border-color: var(--recode-lynch);
+}
+
+/* Code blocks */
+.prism-code {
+  background-color: var(--ifm-pre-background);
+  border: 1px solid var(--recode-lovely-lilac);
+}
+
+/* Sidebar */
+.menu__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Hero section customization */
+.hero--primary {
+  background-color: var(--recode-chambray);
+  color: white;
+}
+
+/* Alert boxes with brand colors */
+.alert--info {
+  background-color: var(--recode-lovely-lilac);
+  border-color: var(--recode-lynch);
+}
+
+.alert--tip {
+  background-color: var(--recode-thalassophile);
+  border-color: var(--recode-chambray);
+  color: white;
+}
+
+/* Custom spacing that matches brand typography */
+.hero__title {
+  font-size: 3.05em; /* h1 from brand guide */
+}
+
+.hero__subtitle {
+  font-size: 1.25em; /* h5 from brand guide */
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2.44em; /* h2 from brand guide for smaller screens */
+  }
+}
