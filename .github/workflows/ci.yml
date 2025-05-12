@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Match the version used in Dockerfile
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Docusaurus site (Checks Links)
+        run: npm run build
+
+      - name: Build Docker image
+        run: docker build . -t recode-chat-docs:test
+
+      # Optional: Add spell checking
+      # See https://github.com/check-spelling/check-spelling for configuration
+      - name: Check Spelling
+        uses: check-spelling/check-spelling@v0.0.22
