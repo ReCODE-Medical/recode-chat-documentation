@@ -20,12 +20,12 @@ If you're new to ReCODE Chat:
 1. **Log in** at chat.recodemedical.com
 2. **Try `/code`** followed by any CPT code
 3. **Practice** with cardiology examples
-4. **Review** [Getting Started](/getting-started) for basics
+4. **Review** [Getting Started](/docs/getting-started) for basics
 
 ## Common Issues
 
 **Can't log in?**  
-Contact support@recodemedical.com with your organization name
+Contact `support@recodemedical.com` with your organization name in the subject line.
 
 **Not getting good responses?**  
 - Use specific cardiology terms

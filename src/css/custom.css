@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -44,12 +46,20 @@
   --ifm-color-primary-lightest: #7fc9ed; /* Lightest shade */
   
   /* Dark mode specific colors */
-  --ifm-background-color: #111935; /* DARK KNIGHT as background */
-  --ifm-navbar-background-color: #111935;
+  --ifm-background-color: #192244; /* DARK KNIGHT -> Slightly lighter version */
+  --ifm-font-color-base: #e0e0e0; /* Lighter base text color for dark mode */
+  --ifm-heading-color: #ffffff; /* White headings for contrast */
+  --ifm-navbar-background-color: #111935; /* Keep navbar slightly darker */
   --ifm-sidebar-background-color: #192244; /* Slightly lighter than DARK KNIGHT */
   
   /* Code highlighting in dark mode */
   --docusaurus-highlighted-code-line-bg: rgba(71, 178, 228, 0.3); /* THALASSOPHILE with transparency */
+}
+
+/* Apply Bitter font to headings and site title */
+h1, h2, h3, h4, h5, h6,
+.navbar__title {
+  font-family: 'Bitter', serif;
 }
 
 /* Custom styling for brand consistency */
@@ -66,7 +76,8 @@
 /* Footer branding */
 .footer {
   background-color: var(--recode-dark-knight);
-  color: var(--recode-lovely-lilac);
+  /* Use a slightly lighter color for footer text in dark mode */
+  color: var(--ifm-font-color-secondary, var(--recode-lovely-lilac));
 }
 
 /* Custom button styling */

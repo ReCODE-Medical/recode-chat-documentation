@@ -37,12 +37,11 @@ Ready to start using ReCODE Chat? Here's how to get going in 3 minutes:
 
 This documentation is organized to help you progress from basic understanding to advanced usage:
 
-1. **[CPT Codes & Medical Billing Basics](/cpt-basics)** - Essential background knowledge
-2. **[Getting Started](/getting-started)** - Step-by-step setup and basic usage
-3. **[Common Coding Scenarios](/common-scenarios)** - Real-world examples and solutions
-4. **[Best Practices & Tips](/best-practices)** - How to get the best results
-5. **[Advanced Features](/advanced-features)** - Power user tips and tricks
-6. **[Support & Resources](/support)** - Help when you need it
+1. **[CPT Codes & Medical Billing Basics](/docs/cpt-basics)** - Essential background knowledge
+2. **[Getting Started](/docs/getting-started)** - Step-by-step setup and basic usage
+3. **[Common Coding Scenarios](/docs/common-scenarios)** - Real-world examples and solutions
+4. **[Advanced Features](/docs/advanced-features)** - Power user tips and tricks
+5. **[Support & Resources](/docs/support)** - Help when you need it
 
 ## Support
 

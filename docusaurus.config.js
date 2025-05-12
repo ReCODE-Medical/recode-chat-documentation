@@ -61,6 +61,7 @@ const config = {
         logo: {
           alt: 'ReCODE Medical Logo',
           src: 'img/logo.png',
+          href: 'https://recodemedical.com',
         },
         items: [
           {

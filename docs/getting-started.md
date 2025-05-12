@@ -12,7 +12,7 @@ Ready to start using ReCODE Chat? This guide will walk you through everything yo
 2. **Log In**: Use your provided credentials
 3. **Select ReCODE Chat**: Choose from available specialties
 
-Need access? Contact [our support team](/support).
+Need access? Contact [our support team](/docs/support).
 
 ## Interface Overview
 
@@ -93,15 +93,15 @@ Try these to get familiar:
 
 ## Next Steps
 
-- Learn [CPT Codes](/docs/cpt-basic) for medical billing introduction
-- Explore [Common Scenarios](/common-scenarios) for examples
+- Learn [/docs/cpt-basic](/docs/cpt-basics) for medical billing introduction
+- Explore [/common-scenarios](/docs/common-scenarios) for examples
 - Master [Advanced Features](/docs/advanced-features) with slash commands
 
 ## Troubleshooting
 
 **Common Issues:**
 - **Unclear responses?** Add more specific details
-- **Need help?** Visit [Support](/docs/support)
+- **Need help?** Visit [/support](/docs/support)
 
 ---
 
