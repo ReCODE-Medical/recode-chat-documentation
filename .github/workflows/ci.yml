@@ -29,9 +29,19 @@ jobs:
   spell-check:
       name: Check Spelling
       runs-on: ubuntu-latest
+      permissions:
+        contents: write
       steps:
         - name: Checkout code
           uses: actions/checkout@v4
 
         - name: Check Spelling
           uses: check-spelling/check-spelling@main
+          with:
+            extra_dictionaries: |
+              cspell:software-terms/dict/softwareTerms.txt
+              cspell:npm/dict/npm.txt
+              cspell:typescript/dict/typescript.txt
+              cspell:html/dict/html.txt
+              cspell:css/dict/css.txt
+              .github/spelling/allow.txt
