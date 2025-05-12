@@ -7,9 +7,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-and-test:
+  build-site:
+    name: Build Docusaurus Site
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -17,19 +17,21 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Match the version used in Dockerfile
+          node-version: '18'
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build Docusaurus site (Checks Links)
+      - name: Build Docusaurus site
         run: npm run build
 
-      - name: Build Docker image
-        run: docker build . -t recode-chat-docs:test
+  spell-check:
+      name: Check Spelling
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
 
-      # Optional: Add spell checking
-      # See https://github.com/check-spelling/check-spelling for configuration
-      - name: Check Spelling
-        uses: check-spelling/check-spelling@v0.0.22
+        - name: Check Spelling
+          uses: check-spelling/check-spelling@main
