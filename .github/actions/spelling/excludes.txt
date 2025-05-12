@@ -1,20 +1,18 @@
 # Exclude patterns for check-spelling
 
 # Node modules
-node_modules/**
+^node_modules/
 
 # Package lock file
 ^package-lock\.json$
 
 # Build artifacts
-build/**
-.cache/**
-.docusaurus/**
+^build/
+^\.cache/
+^\.docusaurus/
 
 # Static assets (often contain generated or third-party code/files)
 ^static/
 
 # Binary files often caught by the checker
-*.png
-*.jpg
-*.ico 
+\.(png|jpg|ico)$
